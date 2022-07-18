@@ -1,0 +1,22 @@
+#Apresentação de assunto
+
+1- Dado e informação
+2- Banco de dados relacional e não relacional (breve)
+3- O que é modelagem
+4- Níveis de modelagem
+5- Etapas para o desenvolvimento de um banco (breve)
+6- Explicar elementos da modelagem (entidade, atributo, relacionamentos...)
+7- Explicar os tipos de chaves
+8- Tipos de cardinalidade
+9- Formas normais
+10- Modelo Entidade Relacionamento
+
+#Explicação deles
+Pedir explicação deles sobre determinado tópico
+    -Melhorar a explicação deles
+    -Corrigir se necessário
+    -Tirar eventuais dúvidas
+
+#Exercício simples
+1° - Simples
+2° - Modelo mais complexo
