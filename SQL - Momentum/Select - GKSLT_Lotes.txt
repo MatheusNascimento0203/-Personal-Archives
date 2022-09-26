@@ -1,0 +1,2 @@
+select Num_Empr, Cod_Quadra, Cod_Lot, Qtd_Area, Cod_Comp, Vlr_CustOrcTot,	Vlr_CustReaTot,	Vlr_CustCorMonetTot From GKSLT_Lotes
+Where Num_ChavLot = 32678;

@@ -1,0 +1,15 @@
+select * from GKSLT_Parcelas
+where Num_ChavParc = 43971182
+
+
+select * from GKSLT_DiarioBaixaParc
+where Num_ChavParc = 42410234
+
+select * from GKSLT_CartEventos
+where Num_ChavCartEve = 1566687
+
+select * from GKSLT_CartEventos
+where Nom_Contabili like 'B.TAXA ADMINISTRAÇÃO'
+and Num_Empr = 14
+and Cod_CartCont = 3
+and Cod_TipBaiPar = 1

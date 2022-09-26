@@ -1,0 +1,8 @@
+SELECT
+Num_Parc,
+Convert(varchar(10),Dat_Ger,103) AS Data_Ger,
+Ind_Amort 
+FROM GKSLT_Parcelas
+WHERE Num_Contr = 434843
+AND Cod_TipParc IN (62)
+ORDER BY Cod_TipParc, Num_Parc;

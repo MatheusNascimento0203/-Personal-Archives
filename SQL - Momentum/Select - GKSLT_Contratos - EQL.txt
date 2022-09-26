@@ -1,0 +1,14 @@
+SELECT 
+	   LT.Num_Empr,
+	   LT.Cod_Quadra,
+	   LT.Cod_Lot,
+	   CT.Num_Contr,
+	   Ct.Num_CliCPFCNPJ
+FROM GKSLT_Contratos CT With(NOLOCK)
+INNER JOIN GKSLT_Lotes LT With(NOLOCK)
+ON CT.Num_ChavLot = LT.Num_ChavLot
+Where CT.Dat_Cad >= '2022-05-01' 
+AND CT.Cod_StatusContVend = 2
+AND CT.Num_CliCPFCNPJ in (
+					     )
+ORDER BY LT.Cod_Quadra, Cod_Lot;

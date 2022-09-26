@@ -1,0 +1,10 @@
+
+SELECT TOP 15 * FROM GKSLT_Parcelas
+WHERE Cod_TipParc = 3 AND Dat_Venc = '2022-08-10'
+
+
+select Num_Empr, Cod_Quadra, Cod_Lot From GKSLT_Lotes
+Where Num_ChavLot = 34485
+
+SELECT * FROM GKSLT_Contratos
+WHERE Num_Contr = 351414

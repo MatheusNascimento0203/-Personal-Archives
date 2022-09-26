@@ -1,0 +1,2 @@
+SELECT * FROM GKSLT_ParcelasAlienacaoVinculo
+Where Num_ChavParc = 43352347;

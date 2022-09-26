@@ -1,0 +1,7 @@
+Select LT.Num_Empr, LT.Cod_Quadra, LT.Cod_Lot, CT.Num_Contr From GKSLT_Contratos CT With(NoLock)
+	INNER JOIN GKSLT_Lotes LT  With(Nolock)
+	ON CT.Num_ChavLot = LT.Num_ChavLot
+	WHERE CT.Num_Contr in (429056);
+
+	SELECT * FROM GKSLT_Contratos where Num_Contr = 392740;
+	SELECT * FROM GKSLT_Lotes where Num_ChavLot = 34729;

@@ -1,0 +1,23 @@
+
+SELECT Top 10 * FROM GKSLT_Contratos
+Where Dat_ConfirmaVenda >= '2021-08-01'
+AND Dat_ConfirmaVenda < '2021-10-01'
+
+SELECT * FROM GKSLT_Parcelas
+WHERE Num_Contr = 422611
+AND Cod_TipParc in (61,62)
+Order By Cod_TipParc, Num_Parc;
+
+SELECT * FROM GKSLT_ParcelasAlienacaoVinculo
+Where Num_ChavParc = 43304636
+
+SELECT * from GKSLT_PagamentosPickMoneyParcelas
+Where Num_ChavParc = 43304636
+
+SELECT * FROM GKSLT_PagamentosPickMoney
+Where Num_SeqlPagamento = 39625
+
+SELECT * frOM GKSCT_Solicitacoes
+Where Num_Sol = 1067372
+
+SELECT * fROM GKSCT_StatusSolicitacoes;

@@ -1,0 +1,5 @@
+SELECT CE.Nom_Contabili,DBP.* FROM 
+	GKSLT_DiarioBaixaParc DBP WITH(NOLOCK)
+	INNER JOIN GKSLT_CartEventos CE WITH(NOLOCK)
+	ON DBP.Num_ChavCartEve = CE.Num_ChavCartEve
+	WHERE DBP.Num_ChavParc = 42343406;

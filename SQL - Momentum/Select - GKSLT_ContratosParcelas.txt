@@ -1,0 +1,2 @@
+SELECT * FROM GKSLT_ContratoParcelas
+WHERE Num_Contr = 436678

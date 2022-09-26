@@ -1,0 +1,21 @@
+*Sequência de geração de contrato*
+
+Pré-Proposta
+
+Cadastra Contrato
+
+Consulta Cliente(Digitalização dos contratos)
+
+Abertura de Saldo Caixa Operacional(Usuário específico)
+
+Recebimento de Parcelas(Usuário específico)
+
+Efetivação das parcelas(Usuário específico)
+
+Confirmação de Venda(Confirmar contrato)
+
+Impresão do contrato
+
+Registro Diário de Vendas
+
+"Comparar os valores a serem baixados com o diário de venda."

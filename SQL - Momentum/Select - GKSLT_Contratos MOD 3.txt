@@ -1,0 +1,5 @@
+SELECT Top 10 * FROM GKSLT_Contratos
+Where Cod_SisVen = 11
+AND Cod_StatusContVend = 2
+AND Dat_ConfirmaVenda >= '2022-0-01'
+AND Dat_ConfirmaVenda < '2022-02-01'

@@ -1,0 +1,5 @@
+Select * From GKSLT_PagamentosPickMoneyParcelas
+Where Num_ChavParc = 43352346;
+
+Select * FROM GKSLT_PagamentosPickMoney
+Where Num_SeqlPagamento = 3683;

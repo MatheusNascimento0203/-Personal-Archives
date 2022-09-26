@@ -1,0 +1,4 @@
+SELECT * FROM GKSJU_TiposProcessos
+
+SELECT TOP 500 * FROM GKSJU_Processo
+WHERE Cod_TipProc = 4 

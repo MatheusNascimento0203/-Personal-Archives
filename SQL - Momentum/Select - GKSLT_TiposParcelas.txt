@@ -1,0 +1,6 @@
+SELECT * FROM GKSLT_TiposParcelas
+
+61 - Alienação CCB  - Terrreno para receber da Pick Money
+62 - Alienação Fiduciária CCB - Parcela que a Pick Money recebe do Cliente
+95 - Parcela de Corretagem CCB - Se possuir vinculo com 62 Pick Money é o recebedor, caso o contrário Momentum recebe;
+99 - Sinal - Valor de Entrada

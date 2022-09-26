@@ -1,0 +1,4 @@
+SELECT * FROM GKSLT_Parcelas
+WHERE Num_Contr = 430476
+AND Cod_TipParc IN (61,62,95,99)
+ORDER BY Cod_TipParc, Num_Parc;

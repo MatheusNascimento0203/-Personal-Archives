@@ -1,0 +1,4 @@
+
+
+SELECT  Vlr_Lote, Vlr_LoteBruto, Vlr_Corretagem, Vlr_EntradaCCB, Vlr_ParcCCB, Qtd_ParcCCB, Vlr_Financiamento, Dat_Venda, Vlr_MoedaTerra FROM GKSLT_Contratos
+WHERE Num_Contr = 431138;

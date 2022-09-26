@@ -1,0 +1,9 @@
+SELECT TOP 10 * FROM GKSLT_Parcelas P
+INNER JOIN GKSLT_Contratos C
+ON C.Num_Contr = P.Num_Contr
+INNER JOIN GKSLT_MelLotes ML
+ON ML.Num_Contr = C.Num_Contr
+WHERE P.Cod_TipParc = 17 AND P.Dat_Pagto IS NULL
+AND C.Cod_StatusContVend = 2  
+AND ML.Qtd_Parc > 60 
+AND ML.Dat_PrimVenc > '20220914'

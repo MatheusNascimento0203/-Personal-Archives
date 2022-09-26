@@ -1,0 +1,2 @@
+SELECT * FROM GKSLT_Rescisao
+WHERE Num_Contr = 431913;

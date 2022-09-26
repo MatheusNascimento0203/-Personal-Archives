@@ -1,0 +1,12 @@
+SELECT * FROM GKSLT_Parcelas
+WHERE Num_Contr = 416815
+<<<<<<< HEAD
+AND Cod_TipParc = 61
+ORDER BY Num_Parc;
+
+SELECT * FROM GKSLT_Parcelas
+WHERE Num_Contr = 392740
+=======
+AND Cod_TipParc = 62
+>>>>>>> 59848ea830cb4c7918d2feabdd4c99eac15621bf
+ORDER BY Num_Parc;
